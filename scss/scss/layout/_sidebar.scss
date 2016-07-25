@@ -1,0 +1,25 @@
+#description {
+  background-color: $sidebar;
+  height: 100%;
+  width: 40%;
+  max-width: 300px;
+  font-size: .9em;
+  position: fixed;
+}
+
+#description p {
+  margin: 50px 20px 20px 20px;
+}
+
+.descriptionSpacer {
+  height: 50px;
+}
+
+.leftLink, .leftLink:visited {
+  color: $interiorlink;
+  font-weight: 500;
+}
+
+#description span {
+  font-weight: 500;
+}

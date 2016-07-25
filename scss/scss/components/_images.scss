@@ -1,0 +1,23 @@
+#work img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#about img {
+  margin-top: 20px;
+  max-width: 350px;
+  width: 80%;
+}
+
+#resume img {
+  max-width: 550px;
+  width: 90%;
+  box-shadow: 2px 2px 5px $transparentblack;
+}
+
+#content img {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
