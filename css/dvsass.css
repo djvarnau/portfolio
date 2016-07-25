@@ -1,0 +1,183 @@
+/************* GENERAL ******************/
+body, html {
+  margin: 0;
+  color: #333333;
+  background-color: #fff;
+  font-weight: 400;
+  font-family: 'Raleway', Cordel, Helvetica, Arial, sans-serif;
+  height: 100%; }
+
+a, a:visited {
+  color: #333333;
+  text-decoration: none; }
+
+.scroll:hover, a:hover, .interiorNav:hover {
+  text-decoration: underline; }
+
+.clear {
+  clear: both; }
+
+h3 {
+  font-weight: 400; }
+
+h2 {
+  font-size: 2em;
+  font-weight: 200; }
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; }
+
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+.spacer {
+  height: 80px; }
+
+#widthChecker {
+  display: none; }
+
+/************* HEADER ******************/
+header {
+  background-color: #fff;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  z-index: 1000;
+  font-weight: 400; }
+
+header a:hover {
+  text-decoration: none; }
+
+#name {
+  float: left;
+  margin: 0;
+  max-width: 40%;
+  margin: 10px 0 10px 70px; }
+
+h1 {
+  margin: 0px;
+  font-size: 2em;
+  font-weight: 200; }
+
+header h3 {
+  margin: 0; }
+
+nav {
+  float: right;
+  margin: 0;
+  position: absolute;
+  bottom: 10px;
+  right: 70px; }
+
+nav ul {
+  margin: 0;
+  padding: 0; }
+
+nav li {
+  display: inline;
+  margin: 0 20px; }
+
+/************* WORK ******************/
+#work {
+  margin: 0 auto; }
+
+img {
+  display: block;
+  width: 100%;
+  margin: 0 auto; }
+
+.thumbnail {
+  width: 45%;
+  max-width: 350px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 1%;
+  display: inline-block; }
+
+.thumbnail .overlay {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0, 0, 0, 0.6); }
+
+.thumbnail span {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  color: #fff;
+  position: absolute;
+  width: 90%;
+  bottom: 10px;
+  left: 5%; }
+
+
+/************* ABOUT ******************/
+#about {
+  margin: 100px auto;
+  max-width: 420px;
+  width: 90%; }
+
+#about img {
+  margin-top: 20px;
+  max-width: 350px;
+  width: 80%; }
+
+#contact p {
+  padding: 0;
+  margin: 0 20px;
+  display: inline-block; }
+
+#contact a, #contact a:visited {
+  color: #339999;
+  font-weight: 500;
+  font-size: .9em; }
+
+/************* RESUME ******************/
+#resume img {
+  max-width: 550px;
+  width: 90%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
+
+/************* CONTENT ******************/
+#description {
+  background-color: #e6e6e6;
+  height: 100%;
+  width: 40%;
+  max-width: 300px;
+  font-size: .9em;
+  position: fixed; }
+
+#description p {
+  margin: 50px 20px 20px 20px; }
+
+.descriptionSpacer {
+  height: 50px; }
+
+.leftLink, .leftLink:visited {
+  color: #339999;
+  font-weight: 500; }
+
+#description span {
+  font-weight: 500; }
+
+#content {
+  margin-left: 300px; }
+
+#content img {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%; }
+
+.contentSpacer {
+  height: 80px; }
+
+/*# sourceMappingURL=dvsass.css.map */
