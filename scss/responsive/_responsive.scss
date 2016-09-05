@@ -1,0 +1,96 @@
+@media (max-width: 750px) {
+  
+  .thumbnail {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  #widthChecker {
+    display: block;
+  }
+  
+  .thumbnail .overlay {
+    display: block;
+  }
+  #content {
+    margin-left: 40%;
+  }
+
+  nav {
+    right: 30px;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  #name {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  
+  header {
+    position: static;
+  }
+  
+  .spacer {
+    display: none;
+  }
+  
+  #name {
+    float: none;
+    margin: 10px auto;
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  h1 {
+    margin: 0 auto;
+  }
+  
+  nav {
+    text-align: center;
+    float: none;
+    position: static;
+    max-width: 100%;
+    margin: 10px auto;
+  }
+  
+  #about, #resume {
+    margin-top: 0;
+  }
+  
+  #about {
+    margin-bottom: 0;
+  }  
+  
+  #description {
+    position: static;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    margin:  0 auto;
+  }
+  
+  #description p {
+    margin: 0 5% 0 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .descriptionSpacer {
+    display: none;
+  }
+
+  .contentSpacer {
+    display: none;
+  }
+  
+  #content {
+    margin: 0 auto;
+  }
+}
