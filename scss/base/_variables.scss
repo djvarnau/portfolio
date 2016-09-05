@@ -1,0 +1,27 @@
+//Descriptive color variables
+
+$white              : #fff;
+$transparentblack   : rgba(0, 0, 0, .6);
+$teal               : #339999;
+$lightgrey          : #e6e6e6;
+$darkgrey           : #333333;
+
+//Functional color variables
+
+$background         : $white;
+$maintext           : $darkgrey;
+$contactlink        : $teal;
+$interiorlink       : $teal;  
+$thumbnailoverlay   : $transparentblack;
+$sidebar            : $lightgrey;
+
+//Font stacks
+
+$stack-raleway     : 'Raleway', Cordel, Helvetica, Arial, sans-serif;
+
+//Media query breakpoints
+
+$bp-wide         : '(max-width: 768px)';
+$bp-mediumwide   : '(max-width: 750px)';
+$bp-mediumnarrow : '(max-width: 690px)';
+$bp-narrow       : '(max-width: 602px)';
